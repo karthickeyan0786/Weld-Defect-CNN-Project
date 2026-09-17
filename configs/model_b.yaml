@@ -1,0 +1,28 @@
+model_name: "Model B (WelDeNet-inspired, fixed)"
+project:
+  seed: 42
+  split_dir: "./data/RIAWELC_split"
+  output_dir: "./outputs/model_b"
+
+dataset:
+  classes: ['CR', 'PO', 'LP', 'ND']
+  target_size: [224, 224]
+
+preprocessing:
+  apply_clahe: true
+  clahe_clip_limit: 2.0
+  clahe_grid_size: [8, 8]
+
+augmentation:
+  rotation_degrees: 10
+  translate_fraction: 0.05
+  p_horizontal_flip: 0.5
+  p_vertical_flip: 0.5
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  epochs: 50
+  patience: 10
+  optimizer: "Adam"
+  dropout: 0.4
