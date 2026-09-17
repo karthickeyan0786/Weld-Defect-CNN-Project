@@ -1,6 +1,3 @@
-Save the following content as `README.md` in the root directory of your project.
-
-```markdown
 # Industrial Weld Defect Detection (RIAWELC)
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
@@ -126,4 +123,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ```
 
-```
