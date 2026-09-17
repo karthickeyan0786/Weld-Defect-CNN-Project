@@ -117,9 +117,18 @@ The audit script will:
 
 All training runs automatically append their performance metrics (Accuracy, Precision, Recall, F1-Score, Inference Time, Model Size) to `experiment_results.csv` for easy comparative analysis.
 
-## 📝 License
+## Author
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+M. Karthickeyan
 
-```
+AI & Data Science Undergraduate  
+Chennai Institute of Technology
+
+GitHub:
+https://github.com/karthickeyan0786
+
+LinkedIn:
+https://linkedin.com/in/karthickeyan-m-51052037b
+
+---
 
